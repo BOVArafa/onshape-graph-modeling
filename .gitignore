@@ -142,6 +142,9 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
+# Instruções locais do agente (não versionar)
+CLAUDE.local.md
+
 # Arquivos e pastas ocultos (começam com ".") ficam fora do repositório...
 .*
 # ...exceto os necessários ao funcionamento do projeto:
