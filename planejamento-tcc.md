@@ -536,3 +536,15 @@ UI-012 + MCP-015 + OPS-013 ──> DOC-014
 
 Prioridade de entrega: **M1 → M2 → M3 → M4 → M5 → M6**, com DB-006 podendo ser
 antecipada em paralelo ao M2.
+
+## 9. Riscos e mitigações
+
+> As "dificuldades previstas" na seção 9 do escopo são tratadas aqui com a
+> estratégia técnica de mitigação correspondente.
+
+| Risco (escopo §9) | Impacto | Mitigação | Onde é tratada |
+|-------|---------|-----------|----------------|
+| Assinatura HMAC da API Onshape é sensível a detalhes de formatação | Bloqueio da integração | Validar requisições no API Explorer antes de codificar; smoke test isolado contra `GET /users/sessioninfo` | ONS-004 |
+| Estrutura do JSON de assemblies mais profunda/variada que o esperado | Retrabalho no mapeador | Mapeador como função pura testada sobre fixtures reais crescentes | DB-008 |
+| Indisponibilidade/limites da API externa durante o desenvolvimento | Atraso em testes | Fixtures versionadas; testes não tocam a rede (RNF-06) | ONS-005, DB-009 |
+| Volume de grafo maior que o previsto na interface web | Degradação visual | Renderização por documento (não do grafo inteiro); filtros por tipo de nó | UI-012 |
