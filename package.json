@@ -1,0 +1,26 @@
+{
+  "name": "onshape-graph-modeling",
+  "version": "0.1.0",
+  "description": "Mapeia a estrutura de modelos 3D do Onshape como grafo no Neo4j, com API REST, visualização web e servidor MCP (TCC PUCRS)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Harness de testes BDD será configurado na issue BDD-002\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOVArafa/onshape-graph-modeling.git"
+  },
+  "author": "Rafael Bova",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BOVArafa/onshape-graph-modeling/issues"
+  },
+  "homepage": "https://github.com/BOVArafa/onshape-graph-modeling#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
