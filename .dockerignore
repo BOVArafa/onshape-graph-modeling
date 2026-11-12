@@ -1,0 +1,15 @@
+node_modules
+.git
+.env
+.env.*
+coverage
+reports
+features
+scripts
+docs
+snippets
+*.md
+*.docx
+Dockerfile
+docker-compose.yml
+.claude
