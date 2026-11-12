@@ -264,7 +264,7 @@ Então o header Authorization contém a assinatura HMAC-SHA256 no formato espera
 
 **Critérios de aceite:**
 - Cenários BDD usando fixtures validam o parse da resposta (sem chamada real à API)
-- Chamada real documentada no README (modelo público `exemplo_neo4j`)
+- Chamada real documentada no README (modelo público "Dumper Trailer")
 
 ---
 
@@ -451,7 +451,7 @@ Então recebo status 429
 - [ ] Campo para informar o `documentId` a visualizar
 
 **Critérios de aceite:**
-- Grafo do modelo `exemplo_neo4j` renderiza no navegador com todos os tipos de nó e aresta
+- Grafo do modelo "Dumper Trailer" renderiza no navegador com todos os tipos de nó e aresta
 - Teste manual no navegador documentado no PR (golden path + documento inexistente)
 
 **Evidência:** Figura 9 do memorial (interface web interativa).
@@ -524,9 +524,10 @@ Testcontainers (disciplina DevOps — figura 12 do memorial).
       guia oficial: https://onshape-public.github.io/docs/auth/apikeys/); credenciais do
       Neo4j e API Key da própria aplicação definidas pelo usuário no `.env`
 - [ ] Modo de demonstração **sem credenciais Onshape**: `npm run seed` carrega a fixture
-      do modelo `exemplo_neo4j` no Neo4j (verificação do orientador sem conta no Onshape)
+      do modelo "Dumper Trailer" no Neo4j (verificação do orientador sem conta no Onshape)
 - [ ] Pasta `docs/figuras/` com as capturas numeradas conforme o memorial
-- [ ] Link público do modelo Onshape `exemplo_neo4j` documentado
+- [ ] Link público do modelo Onshape "Dumper Trailer" documentado
+      (https://cad.onshape.com/documents/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/f4b4556f2bfab459c2c18ca2)
 - [ ] Documentar a configuração de um cliente MCP para usar as ferramentas do servidor
       (critério E4 do escopo)
 

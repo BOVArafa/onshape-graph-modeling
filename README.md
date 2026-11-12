@@ -93,7 +93,7 @@ Para explorar o grafo **sem credenciais do Onshape** — por exemplo, para a ver
 
 ```bash
 docker compose up
-npm run seed            # carrega a fixture do modelo exemplo_neo4j no Neo4j
+npm run seed            # carrega a fixture do modelo "Dumper Trailer" no Neo4j
 ```
 
 Depois, abra a interface web e informe o `documentId` de demonstração. O seed usa respostas reais da API do Onshape capturadas como fixtures versionadas — os testes também nunca tocam a rede.
