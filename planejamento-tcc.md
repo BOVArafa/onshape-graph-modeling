@@ -128,6 +128,21 @@ Cenário(s) em Gherkin quando aplicável; caso contrário, lista verificável.
 `<ÁREA>-<NNN>` — prefixo da área dominante + número sequencial de 3 dígitos.
 Exemplos: `SETUP-001`, `BDD-002`, `ONS-004`, `DB-007`, `API-010`, `UI-012`, `OPS-013`.
 
+### Padrão de pull requests
+
+Todo PR segue o template versionado em `.github/PULL_REQUEST_TEMPLATE.md`
+(preenchido automaticamente pelo GitHub ao abrir o PR).
+
+- **Título:** `[<ÁREA>-<NNN>] <Título curto no imperativo>` — mesmo ID da issue correspondente.
+- **Um PR por issue:** entrega pequena e incremental que deixa a `main` em estado
+  funcional (sem código pela metade).
+- **Corpo:** seções *Resumo* (o que muda e por quê), *Decisões* (escolhas técnicas e
+  justificativas — insumo para o memorial), *Plano de teste* (checklist verificável:
+  suíte BDD, cobertura, verificação manual quando aplicável) e *Rastreabilidade*
+  (issue, milestone e evidência do memorial, quando houver).
+- **Merge:** via merge commit (preserva os commits atômicos no histórico), somente com
+  aprovação explícita do autor e, a partir da OPS-013, com CI verde.
+
 ---
 
 ## 7. Backlog de issues
