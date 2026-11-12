@@ -330,7 +330,8 @@ Algoritmos): a resposta aninhada do Onshape é percorrida com DFS recursiva; um 
 `partId` garante que peças reutilizadas em múltiplas subassemblies virem um único nó.
 
 **Escopo:**
-- [ ] `services/graphMapper.js`: transforma a resposta do assembly em
+- [ ] `services/graphMapper.js`: classe `AssemblyGraphMapper` (decisão D6 — OOP no
+      memorial §2.4) que transforma a resposta do assembly em
       `{ nodes: [], relationships: [] }`
 - [ ] Travessia DFS recursiva da hierarquia de subassemblies (`CONTAINS`)
 - [ ] Deduplicação de `Part` via `Map` indexado pelo identificador
@@ -348,6 +349,9 @@ Dado um assembly com uma restrição de montagem entre duas peças
 Quando executo o mapeamento
 Então existe um relacionamento MATES_WITH entre os nós correspondentes
 ```
+
+**Evidência:** Figura 10 do memorial (snippet do mapeador — DFS recursiva com
+deduplicação por hash map, `snippets/figura-10-mapeador-dfs-dedup.js`).
 
 ---
 
