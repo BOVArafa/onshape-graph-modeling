@@ -111,6 +111,22 @@ Todas as variáveis ficam no `.env` (nunca versionado — use o `.env.example` c
 
 As chaves do Onshape só são necessárias para **sincronizar** documentos reais (`POST /map/...`). Consulta, visualização e o modo de demonstração funcionam sem elas.
 
+## Integração com o Onshape
+
+O modelo de referência do projeto é o **["Dumper Trailer"](https://cad.onshape.com/documents/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/f4b4556f2bfab459c2c18ca2)** (público — abre no navegador sem conta). Com as chaves no `.env`, a chamada real à API pode ser reproduzida assim:
+
+```bash
+node -r dotenv/config -e "
+const { createOnshapeClient } = require('./src/services/onshapeClient');
+const client = createOnshapeClient();
+client
+  .getDocument('492ae2574a348180fabf6fff')
+  .then((document) => console.log(document.name)); // Dumper Trailer
+"
+```
+
+Os testes **nunca** chamam a API real: usam respostas capturadas desse modelo, versionadas em [`fixtures/onshape/`](fixtures/onshape/README.md).
+
 ## Testes
 
 > Disponível após o M1.
