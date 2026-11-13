@@ -1,0 +1,1174 @@
+{
+  "rootAssembly" : {
+    "occurrences" : [ {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, -0.055000000000000104, 0.0, 1.0, 0.0, -0.21499999999999997, 0.0, 0.0, 1.0, 7.062500000000001E-4, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "M3+KbZ6mNRWsLK5tV" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, -0.10417999939000122, 0.0, 0.0, 1.0, 0.0019999999999999996, 0.0, -1.0, 0.0, 0.10750100300399999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "M3xjCbzoVARIb0YWT" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ -9.369246892585405E-70, 1.0, -4.788627078741856E-28, -0.10400199949200123, 1.0, 9.38551071917641E-70, 3.452770435792915E-42, -0.10868800330200001, 3.976009230213628E-42, -5.438908336909859E-28, -1.0, 0.04893900100199999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "MCJWYrqh139G0F1jQ" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ -9.369246892585405E-70, 1.0, -4.788627078741856E-28, -0.10400199949200123, 1.0, 9.38551071917641E-70, 3.452770435792915E-42, -0.10868800330200001, 3.976009230213628E-42, -5.438908336909859E-28, -1.0, 0.10733900307399999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Mj2CRvhU5wP4DAIMa" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, -0.055000000000000104, 0.0, 1.0, 0.0, -0.25999999999999995, 0.0, 0.0, 1.0, 7.062500000000001E-4, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "MoVNLlG5kckiTFFvC" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Ms5rmEzVfNN7YOxwh" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, 0.199, 0.0, 1.0, 0.0, -0.04899999999999997, 0.0, 0.0, 1.0, 0.0014999999999999996, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "MtwIL75+wZO8iQnCz" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.4210854715202004E-14, 1.0, 5.133224736136725E-28, -0.11746400000000082, 1.0, -1.4210854715202004E-14, -4.440892098500514E-15, -0.05966600177799994, -4.440892098500514E-15, -5.1135032135062E-28, -1.0, 0.0781390020379999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Mxm7jGVNSIUEJuABI" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, -0.10417999939000122, 0.0, 0.0, 1.0, 9.999999999999998E-4, 0.0, -1.0, 0.0, 0.10750100300399999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "MzDLnZm1JLsfGRnH3" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, -0.10417999939000122, 0.0, 0.0, 1.0, 0.0019999999999999996, 0.0, -1.0, 0.0, 0.04877700107199999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "I7AL8SwII2m9YAzGN" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, -0.10417999939000122, 0.0, 0.0, 1.0, 9.999999999999998E-4, 0.0, -1.0, 0.0, 0.04877700107199999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "IBZJatblDM+qk1gmx" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 0.0, 0.0, -0.1746906340122223, 0.0, 1.0, 0.0, 0.16043145954608917, 0.0, 0.0, 1.0, 0.008571029640734196, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Ms5rmEzVfNN7YOxwh", "M0awoPyF1DZJcZggL" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : true,
+      "transform" : [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Ms5rmEzVfNN7YOxwh", "MR+t58bExTCyyn9SB" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.0, 2.146548318601474E-17, -4.1633363423443635E-17, 8.121142647254943E-16, -2.146548318601474E-17, 1.0, 2.0816681711721685E-17, -2.6586371992820534E-17, 4.1633363423443635E-17, -2.0816681711721685E-17, 1.0, 1.6803304126135972E-5, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Ms5rmEzVfNN7YOxwh", "MnShysOLdCcfLu91q" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ -5.684341886080734E-14, 1.0, -1.6431300764452317E-14, -0.0867299989840025, 1.687538997430284E-14, -1.6431300764452443E-14, -1.0, -0.0528080015240001, -1.0, -5.684341886080853E-14, -1.6875389974302433E-14, 0.07813900203799967, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Mxm7jGVNSIUEJuABI", "MIhQkwyp3Xtk9Ph7X" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ -1.4281793361559901E-98, 1.0, -5.438908336909859E-28, -0.11263799974600122, -1.0, 1.4281793361559901E-98, -5.251713203048451E-71, -0.059666001777999994, 5.251713203048451E-71, -5.438908336909859E-28, 1.0, 0.078139002038, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Mxm7jGVNSIUEJuABI", "MStZnFJz4FfB0Eo+q" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ 1.4210854715202004E-14, 1.0, 5.133224736136725E-28, -0.11746400000000082, 1.0, -1.4210854715202004E-14, -4.440892098500514E-15, -0.05966600177799994, -4.440892098500514E-15, -5.1135032135062E-28, -1.0, 0.0781390020379999, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Mxm7jGVNSIUEJuABI", "Ma4d4ZAi91nk59YpF" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ -1.0000000000000002, 3.885780586188048E-16, 1.2826488391890387E-16, -0.15875, -3.885780586188048E-16, -1.0000000000000002, -2.0942693688385433E-17, 0.0022097999999999285, 1.28264883918904E-16, -2.0942693688385483E-17, 0.9999999999999998, 0.17, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Ms5rmEzVfNN7YOxwh", "M0awoPyF1DZJcZggL", "M4d2EHzfkWOEU1z0a" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ -1.0, 3.3306690738754696E-16, 1.2826488391890362E-16, -0.15874999999999984, -3.3306690738754696E-16, -1.0, -3.047656936711892E-16, 0.0022097999999999285, 1.2826488391890394E-16, -3.047656936711899E-16, 1.0, 0.17, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Ms5rmEzVfNN7YOxwh", "M0awoPyF1DZJcZggL", "MPLoQJhxLlW8mERR9" ]
+    }, {
+      "mateStatuses" : null,
+      "fixed" : false,
+      "transform" : [ -1.0000000000000002, 3.885780586188048E-16, 1.2826488391890387E-16, -0.15875, -3.885780586188048E-16, -1.0000000000000002, -2.0942693688385433E-17, 0.0022097999999999285, 1.28264883918904E-16, -2.0942693688385483E-17, 0.9999999999999998, 0.17, 0.0, 0.0, 0.0, 1.0 ],
+      "hidden" : false,
+      "path" : [ "Ms5rmEzVfNN7YOxwh", "M0awoPyF1DZJcZggL", "MY83EESiehWj4MM0V" ]
+    } ],
+    "isRigid" : false,
+    "parametricInstances" : [ {
+      "id" : "Md67f1YQH6+gvg0N5",
+      "suppressed" : false,
+      "name" : "Replicate 1",
+      "type" : "Replicate",
+      "children" : [ {
+        "instanceIds" : [ "IBZJatblDM+qk1gmx" ],
+        "seedOccurrence" : "MzDLnZm1JLsfGRnH3"
+      }, {
+        "instanceIds" : [ "I7AL8SwII2m9YAzGN" ],
+        "seedOccurrence" : "M3xjCbzoVARIb0YWT"
+      } ]
+    } ],
+    "patterns" : [ ],
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/8eaedd86e81f3909409ac416?configuration=default",
+    "features" : [ {
+      "id" : "MdD5VZqBM+Hz3Zlrz",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "MzDLnZm1JLsfGRnH3" ],
+          "mateConnectorCS" : {
+            "origin" : [ 2.1500028789706636E-18, 1.4993563333395253E-34, -9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 2.1500028789706636E-18, 1.4993563333395253E-34, -9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "Ms5rmEzVfNN7YOxwh", "MR+t58bExTCyyn9SB" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.10417999939000122, 0.0, 0.10750100300399999 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.10417999939000122, 0.0, 0.10750100300399999 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 2"
+      }
+    }, {
+      "id" : "MVsk2eDYL5A4Zh6jd",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "M3xjCbzoVARIb0YWT" ],
+          "mateConnectorCS" : {
+            "origin" : [ 2.9020410559102733E-18, 0.0, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 2.9020410559102733E-18, 0.0, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "MzDLnZm1JLsfGRnH3" ],
+          "mateConnectorCS" : {
+            "origin" : [ 2.1500028789706636E-18, -1.4993563333395253E-34, 9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, -1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 2.1500028789706636E-18, -1.4993563333395253E-34, 9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ -0.0, 1.0, 0.0 ],
+            "zAxis" : [ -0.0, -0.0, 1.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 3"
+      }
+    }, {
+      "id" : "MIx4D5RJn5+GRzuKV",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "Mj2CRvhU5wP4DAIMa" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.00381, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.00381, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "Mxm7jGVNSIUEJuABI", "MStZnFJz4FfB0Eo+q" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.045212001524, 0.008636000254, 0.029200001036 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.045212001524, 0.008636000254, 0.029200001036 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ -1.0, -0.0, -0.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 4"
+      }
+    }, {
+      "id" : "MxkvpHdpbvfWQdUUF",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "MCJWYrqh139G0F1jQ" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.00381, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.00381, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "Mxm7jGVNSIUEJuABI", "MStZnFJz4FfB0Eo+q" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.045212001524, 0.008636000254, -0.029200001036 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.045212001524, 0.008636000254, -0.029200001036 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ -1.0, -0.0, -0.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 5"
+      }
+    }, {
+      "id" : "MIhtoCnplzzZaL3oY",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "MoVNLlG5kckiTFFvC" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.0, 0.0, 7.9375E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, -1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.0, 0.0, 7.9375E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, -1.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "Ms5rmEzVfNN7YOxwh", "MR+t58bExTCyyn9SB" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.055000000000000104, -0.25999999999999995, 0.0015 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.055000000000000104, -0.25999999999999995, 0.0015 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ -0.0, -0.0, -1.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 8"
+      }
+    }, {
+      "id" : "MHZv2QVTAfxDl2/Nu",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "M3+KbZ6mNRWsLK5tV" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.0, 0.0, 7.9375E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, -1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.0, 0.0, 7.9375E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, -1.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "Ms5rmEzVfNN7YOxwh", "MR+t58bExTCyyn9SB" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.055000000000000104, -0.21499999999999997, 0.0015 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.055000000000000104, -0.21499999999999997, 0.0015 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ -0.0, -0.0, -1.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 9"
+      }
+    }, {
+      "id" : "MHhpcJ1Yb8jqt5A9i",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "Ms5rmEzVfNN7YOxwh", "MR+t58bExTCyyn9SB" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.10417999939000122, -0.0015000000000000013, 0.10750100300399999 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 0.0, -1.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.10417999939000122, -0.0015000000000000013, 0.10750100300399999 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ -0.0, 0.0, 1.0 ],
+            "zAxis" : [ 0.0, -1.0, 0.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "Mxm7jGVNSIUEJuABI", "MStZnFJz4FfB0Eo+q" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.058166001778, 0.008458000355999999, 0.029362000965999998 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ -1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.058166001778, 0.008458000355999999, 0.029362000965999998 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, -0.0, 1.0 ],
+            "zAxis" : [ 1.0, -0.0, -0.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 1"
+      }
+    }, {
+      "id" : "MFjWDxn68S4vG1lgx",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "Ms5rmEzVfNN7YOxwh", "MR+t58bExTCyyn9SB" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.297, -0.002999999999999975, 0.0014999999999999996 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.297, -0.002999999999999975, 0.0014999999999999996 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "MtwIL75+wZO8iQnCz" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.08799999999999998, 0.03599999999999999, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, -1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.09799999999999998, 0.04599999999999999, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ -0.0, 1.0, 0.0 ],
+            "zAxis" : [ -0.0, -0.0, 1.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 6"
+      }
+    }, {
+      "id" : "M6LYP71V5MnEhAljS",
+      "suppressed" : false,
+      "featureType" : "mateGroup",
+      "featureData" : {
+        "occurrences" : [ {
+          "occurrence" : [ "M8/NC0ZuRRE7rCAD2" ]
+        }, {
+          "occurrence" : [ "MIk7dp2MUtiPUddw2" ]
+        }, {
+          "occurrence" : [ "MjAW/SGNDDhLvvMWL" ]
+        }, {
+          "occurrence" : [ "Mqufg12QjVUraKv2w" ]
+        }, {
+          "occurrence" : [ "MfKPOFGC544Ddzs4N" ]
+        } ],
+        "name" : "Group 1"
+      }
+    }, {
+      "id" : "MG1OQDUxt/P/z+JFS",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "Mj2CRvhU5wP4DAIMa" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.003556, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ -1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.003556, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ -1.0, 0.0, 0.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "MIk7dp2MUtiPUddw2" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.1040019994920011, -1.452244003302, 0.027339003073999953 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.2246467991473532E-16, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, -1.2246467991473532E-16 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.1040019994920011, -1.452244003302, 0.027339003073999953 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ -0.0, 1.2246467991473532E-16, 1.0 ],
+            "zAxis" : [ -0.0, -1.0, 1.2246467991473532E-16 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 7"
+      }
+    }, {
+      "id" : "MTJohOg5Dn7/12y82",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "IBZJatblDM+qk1gmx" ],
+          "mateConnectorCS" : {
+            "origin" : [ 2.1500028789706636E-18, 1.4993563333395253E-34, -9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 2.1500028789706636E-18, 1.4993563333395253E-34, -9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "Ms5rmEzVfNN7YOxwh", "MR+t58bExTCyyn9SB" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.10417999939000122, 0.0, 0.04877700107199999 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.10417999939000122, 0.0, 0.04877700107199999 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 2"
+      }
+    }, {
+      "id" : "MRQl2D+kc9tNyW/QO",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "I7AL8SwII2m9YAzGN" ],
+          "mateConnectorCS" : {
+            "origin" : [ 2.9020410559102733E-18, 0.0, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 2.9020410559102733E-18, 0.0, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "IBZJatblDM+qk1gmx" ],
+          "mateConnectorCS" : {
+            "origin" : [ 2.1500028789706636E-18, -1.4993563333395253E-34, 9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, -1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 2.1500028789706636E-18, -1.4993563333395253E-34, 9.999999999999998E-4 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ -0.0, 1.0, 0.0 ],
+            "zAxis" : [ -0.0, -0.0, 1.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 3"
+      }
+    } ],
+    "instances" : [ {
+      "id" : "Ms5rmEzVfNN7YOxwh",
+      "suppressed" : false,
+      "name" : "Hydraulics Storage Box <1>",
+      "type" : "Assembly",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "0a19bc9393f224f89a0bbedd",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "Mxm7jGVNSIUEJuABI",
+      "suppressed" : false,
+      "name" : "165AYS32-GRR-1V-03-03-Y <1>",
+      "type" : "Assembly",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "f4885232975c48969106800b",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "M3xjCbzoVARIb0YWT",
+      "suppressed" : false,
+      "partId" : "JHD",
+      "isStandardContent" : true,
+      "name" : "Hex head screw grade A & B M10x1.50 x 20 <1>",
+      "type" : "Part",
+      "configuration" : "JTQwc2NwPUxsSVJhMGFKM0swR3BiZ0pINjNJVnJWYU5BTTU3QUZ3YzdyQjNNeHNhUmclM0Q7QmFzaWNEaWFtZXRlcj0wLjAxK21ldGVyO0ZpbGxldFJhZGl1cz00LjBFLTQrbWV0ZXI7SGVhZEhlaWdodD0wLjAwNjQrbWV0ZXI7TGVuZ3RoPTAuMDIrbWV0ZXI7UGl0Y2g9MC4wMDE1K21ldGVyO1RyaWFuZ2xlSGVpZ2h0PTAuMDAxMjk5MDM4MSttZXRlcjtXYXNoZXJGYWNlPTYuMEUtNCttZXRlcjtXaWR0aEFjcm9zc0ZsYXRzPTAuMDE2K21ldGVy",
+      "documentId" : "0a5d618aa9fe308acdc438c8",
+      "elementId" : "c83202233be413e6e7ef29bb",
+      "documentMicroversion" : "ee611c55e2f76151966c607a",
+      "fullConfiguration" : "JTQwc2NwPUxsSVJhMGFKM0swR3BiZ0pINjNJVnJWYU5BTTU3QUZ3YzdyQjNNeHNhUmclM0Q7QmFzaWNEaWFtZXRlcj0wLjAxK21ldGVyO0ZpbGxldFJhZGl1cz00LjBFLTQrbWV0ZXI7SGVhZEhlaWdodD0wLjAwNjQrbWV0ZXI7TGVuZ3RoPTAuMDIrbWV0ZXI7UGl0Y2g9MC4wMDE1K21ldGVyO1RyaWFuZ2xlSGVpZ2h0PTAuMDAxMjk5MDM4MSttZXRlcjtXYXNoZXJGYWNlPTYuMEUtNCttZXRlcjtXaWR0aEFjcm9zc0ZsYXRzPTAuMDE2K21ldGVy",
+      "documentVersion" : "cb9d35a34bc6d5a4bc6f1027"
+    }, {
+      "id" : "MzDLnZm1JLsfGRnH3",
+      "suppressed" : false,
+      "partId" : "JHD",
+      "isStandardContent" : true,
+      "name" : "Plain washer normal grade A M10 <1>",
+      "type" : "Part",
+      "configuration" : "JTQwc2NwPTVYVmNiODlnOE1rMTJmR2tBbGhBdW1HOUNUUDZydmZRMkFKckJ5UGJ5QTAlM0Q7Q2xlYXJhbmNlSG9sZT0wLjAwOTMwMDAwMDAwMDAwMDAwMSttZXRlcjtPdXRzaWRlRGlhbWV0ZXI9MC4wMittZXRlcjtUaGlja25lc3M9MC4wMDIrbWV0ZXI",
+      "documentId" : "affef12b9cb982d2a1576301",
+      "elementId" : "aa19e4f7aa24b3613aa68155",
+      "documentMicroversion" : "f6fd117e7dac2ec9fe465c57",
+      "fullConfiguration" : "JTQwc2NwPTVYVmNiODlnOE1rMTJmR2tBbGhBdW1HOUNUUDZydmZRMkFKckJ5UGJ5QTAlM0Q7Q2xlYXJhbmNlSG9sZT0wLjAwOTMwMDAwMDAwMDAwMDAwMSttZXRlcjtPdXRzaWRlRGlhbWV0ZXI9MC4wMittZXRlcjtUaGlja25lc3M9MC4wMDIrbWV0ZXI",
+      "documentVersion" : "5e221b5c688f32d29ad51bf1"
+    }, {
+      "id" : "IBZJatblDM+qk1gmx",
+      "suppressed" : false,
+      "partId" : "JHD",
+      "isStandardContent" : true,
+      "name" : "Plain washer normal grade A M10 <2>",
+      "type" : "Part",
+      "configuration" : "JTQwc2NwPTVYVmNiODlnOE1rMTJmR2tBbGhBdW1HOUNUUDZydmZRMkFKckJ5UGJ5QTAlM0Q7Q2xlYXJhbmNlSG9sZT0wLjAwOTMwMDAwMDAwMDAwMDAwMSttZXRlcjtPdXRzaWRlRGlhbWV0ZXI9MC4wMittZXRlcjtUaGlja25lc3M9MC4wMDIrbWV0ZXI",
+      "documentId" : "affef12b9cb982d2a1576301",
+      "elementId" : "aa19e4f7aa24b3613aa68155",
+      "documentMicroversion" : "f6fd117e7dac2ec9fe465c57",
+      "fullConfiguration" : "JTQwc2NwPTVYVmNiODlnOE1rMTJmR2tBbGhBdW1HOUNUUDZydmZRMkFKckJ5UGJ5QTAlM0Q7Q2xlYXJhbmNlSG9sZT0wLjAwOTMwMDAwMDAwMDAwMDAwMSttZXRlcjtPdXRzaWRlRGlhbWV0ZXI9MC4wMittZXRlcjtUaGlja25lc3M9MC4wMDIrbWV0ZXI",
+      "documentVersion" : "5e221b5c688f32d29ad51bf1"
+    }, {
+      "id" : "I7AL8SwII2m9YAzGN",
+      "suppressed" : false,
+      "partId" : "JHD",
+      "isStandardContent" : true,
+      "name" : "Hex head screw grade A & B M10x1.50 x 20 <2>",
+      "type" : "Part",
+      "configuration" : "JTQwc2NwPUxsSVJhMGFKM0swR3BiZ0pINjNJVnJWYU5BTTU3QUZ3YzdyQjNNeHNhUmclM0Q7QmFzaWNEaWFtZXRlcj0wLjAxK21ldGVyO0ZpbGxldFJhZGl1cz00LjBFLTQrbWV0ZXI7SGVhZEhlaWdodD0wLjAwNjQrbWV0ZXI7TGVuZ3RoPTAuMDIrbWV0ZXI7UGl0Y2g9MC4wMDE1K21ldGVyO1RyaWFuZ2xlSGVpZ2h0PTAuMDAxMjk5MDM4MSttZXRlcjtXYXNoZXJGYWNlPTYuMEUtNCttZXRlcjtXaWR0aEFjcm9zc0ZsYXRzPTAuMDE2K21ldGVy",
+      "documentId" : "0a5d618aa9fe308acdc438c8",
+      "elementId" : "c83202233be413e6e7ef29bb",
+      "documentMicroversion" : "ee611c55e2f76151966c607a",
+      "fullConfiguration" : "JTQwc2NwPUxsSVJhMGFKM0swR3BiZ0pINjNJVnJWYU5BTTU3QUZ3YzdyQjNNeHNhUmclM0Q7QmFzaWNEaWFtZXRlcj0wLjAxK21ldGVyO0ZpbGxldFJhZGl1cz00LjBFLTQrbWV0ZXI7SGVhZEhlaWdodD0wLjAwNjQrbWV0ZXI7TGVuZ3RoPTAuMDIrbWV0ZXI7UGl0Y2g9MC4wMDE1K21ldGVyO1RyaWFuZ2xlSGVpZ2h0PTAuMDAxMjk5MDM4MSttZXRlcjtXYXNoZXJGYWNlPTYuMEUtNCttZXRlcjtXaWR0aEFjcm9zc0ZsYXRzPTAuMDE2K21ldGVy",
+      "documentVersion" : "cb9d35a34bc6d5a4bc6f1027"
+    }, {
+      "id" : "Mj2CRvhU5wP4DAIMa",
+      "suppressed" : false,
+      "partId" : "JFD",
+      "isStandardContent" : false,
+      "name" : "Reducer, Straight, Ø3/8\" Tube x Ø1/4\" Tube <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "7dd16d8cbbadabb81ecea143",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "MCJWYrqh139G0F1jQ",
+      "suppressed" : false,
+      "partId" : "JFD",
+      "isStandardContent" : false,
+      "name" : "Reducer, Straight, Ø3/8\" Tube x Ø1/4\" Tube <2>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "7dd16d8cbbadabb81ecea143",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "MoVNLlG5kckiTFFvC",
+      "suppressed" : false,
+      "partId" : "JFD",
+      "isStandardContent" : false,
+      "name" : "Grommet, Rubber, Ø1/2\" ID x Ø11/16\" OD x 1/16\" THK <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "93806e6312cfe4a49d96936c",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "M3+KbZ6mNRWsLK5tV",
+      "suppressed" : false,
+      "partId" : "JFD",
+      "isStandardContent" : false,
+      "name" : "Grommet, Rubber, Ø1/2\" ID x Ø11/16\" OD x 1/16\" THK <2>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "93806e6312cfe4a49d96936c",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "MtwIL75+wZO8iQnCz",
+      "suppressed" : false,
+      "partId" : "JFD",
+      "isStandardContent" : false,
+      "name" : "12v 17ah Battery <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "ace7cb96b1669e90089d5fb9",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    } ],
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "8eaedd86e81f3909409ac416",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  },
+  "subAssemblies" : [ {
+    "isRigid" : true,
+    "parametricInstances" : [ ],
+    "patterns" : [ ],
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/f4885232975c48969106800b?configuration=default",
+    "features" : [ {
+      "id" : "MJsQRU8NHkQJLA3CB",
+      "suppressed" : false,
+      "featureType" : "mateGroup",
+      "featureData" : {
+        "occurrences" : [ {
+          "occurrence" : [ "MStZnFJz4FfB0Eo+q" ]
+        }, {
+          "occurrence" : [ "Ma4d4ZAi91nk59YpF" ]
+        }, {
+          "occurrence" : [ "MIhQkwyp3Xtk9Ph7X" ]
+        } ],
+        "name" : "Group 1"
+      }
+    } ],
+    "instances" : [ {
+      "id" : "MStZnFJz4FfB0Eo+q",
+      "suppressed" : false,
+      "partId" : "JFD",
+      "isStandardContent" : false,
+      "name" : "165RR1adapter <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "7bec4c84900aea2e830cbee7",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "Ma4d4ZAi91nk59YpF",
+      "suppressed" : false,
+      "partId" : "JFH",
+      "isStandardContent" : false,
+      "name" : "GVreservoir <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "7bec4c84900aea2e830cbee7",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "MIhQkwyp3Xtk9Ph7X",
+      "suppressed" : false,
+      "partId" : "JFL",
+      "isStandardContent" : false,
+      "name" : "165motor <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "7bec4c84900aea2e830cbee7",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    } ],
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "f4885232975c48969106800b",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "isRigid" : false,
+    "parametricInstances" : [ ],
+    "patterns" : [ ],
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/0a19bc9393f224f89a0bbedd?configuration=default",
+    "features" : [ {
+      "id" : "MGMo0dEn8I25s9Lzb",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "M0awoPyF1DZJcZggL", "M4d2EHzfkWOEU1z0a" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.15875, 0.0022098, 4.0245584642662023E-19 ],
+            "xAxis" : [ -1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.82123199577618E-16, 1.0 ],
+            "zAxis" : [ 0.0, 1.0, 1.82123199577618E-16 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.15875, 0.0022098, 4.0245584642662023E-19 ],
+            "xAxis" : [ -1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.82123199577618E-16, 1.0 ],
+            "zAxis" : [ 0.0, 1.0, 1.82123199577618E-16 ]
+          }
+        }, {
+          "matedOccurrence" : [ "MR+t58bExTCyyn9SB" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.0, 0.0, 0.17 ],
+            "xAxis" : [ -1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.0, 0.0, 0.17 ],
+            "xAxis" : [ 1.0, -0.0, -0.0 ],
+            "yAxis" : [ 0.0, -0.0, 1.0 ],
+            "zAxis" : [ -0.0, -1.0, -0.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 7"
+      }
+    }, {
+      "id" : "Mz34XDkf+FcpOGc/Y",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "M9oJEGj+X7Ss3JlcM" ],
+          "mateConnectorCS" : {
+            "origin" : [ 0.0, -0.003645027, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 0.0, -0.003645027, 0.0 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "MnShysOLdCcfLu91q" ],
+          "mateConnectorCS" : {
+            "origin" : [ 3.2959746043559335E-17, -0.2679999999999999, 0.187 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ 0.0, 0.0, 1.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ 3.2959746043559335E-17, -0.2679999999999999, 0.187 ],
+            "xAxis" : [ -1.0, -0.0, -0.0 ],
+            "yAxis" : [ 0.0, 1.0, 0.0 ],
+            "zAxis" : [ -0.0, -0.0, -1.0 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 1"
+      }
+    }, {
+      "id" : "M24u+CRtQa72/qKCR",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "MnShysOLdCcfLu91q" ],
+          "mateConnectorCS" : {
+            "origin" : [ -1.3877787807814457E-16, 0.0, 0.17300000000000001 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -1.3877787807814457E-16, 0.0, 0.17300000000000001 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, 0.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "M0awoPyF1DZJcZggL", "MPLoQJhxLlW8mERR9" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.1587500000000005, 0.0022098000000000044, 0.007516803304126154 ],
+            "xAxis" : [ 1.0, 0.0, 0.0 ],
+            "yAxis" : [ 0.0, -1.82123199577618E-16, -1.0 ],
+            "zAxis" : [ 0.0, 1.0, -1.82123199577618E-16 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.1587500000000005, 0.0022098000000000035, 0.0030168033041261533 ],
+            "xAxis" : [ -1.0, -0.0, -0.0 ],
+            "yAxis" : [ 0.0, -1.82123199577618E-16, -1.0 ],
+            "zAxis" : [ -0.0, -1.0, 1.82123199577618E-16 ]
+          }
+        } ],
+        "mateLimits" : { },
+        "mateType" : "FASTENED",
+        "name" : "Fastened 2"
+      }
+    } ],
+    "instances" : [ {
+      "id" : "MR+t58bExTCyyn9SB",
+      "suppressed" : false,
+      "partId" : "ReHD",
+      "isStandardContent" : false,
+      "name" : "Enclosure <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "1a43b0c1c93e355c01a752e9",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "MnShysOLdCcfLu91q",
+      "suppressed" : false,
+      "partId" : "R1GD",
+      "isStandardContent" : false,
+      "name" : "Enclosure Cover <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "1a43b0c1c93e355c01a752e9",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "M0awoPyF1DZJcZggL",
+      "suppressed" : false,
+      "name" : "Piano Hinge <1>",
+      "type" : "Assembly",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "3f45b3d88e3eb52f8be3649a",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    } ],
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "0a19bc9393f224f89a0bbedd",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "isRigid" : false,
+    "parametricInstances" : [ ],
+    "patterns" : [ ],
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/3f45b3d88e3eb52f8be3649a?configuration=default",
+    "features" : [ {
+      "id" : "Mo5olPv10t26aqJoo",
+      "suppressed" : false,
+      "featureType" : "mateGroup",
+      "featureData" : {
+        "occurrences" : [ {
+          "occurrence" : [ "MY83EESiehWj4MM0V" ]
+        }, {
+          "occurrence" : [ "M4d2EHzfkWOEU1z0a" ]
+        } ],
+        "name" : "Group 1"
+      }
+    }, {
+      "id" : "MXsbTKDXr1zHxCu8p",
+      "suppressed" : false,
+      "featureType" : "mate",
+      "featureData" : {
+        "matedEntities" : [ {
+          "matedOccurrence" : [ "M4d2EHzfkWOEU1z0a" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.4445, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.4445, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, 1.0 ],
+            "zAxis" : [ 1.0, 0.0, 0.0 ]
+          }
+        }, {
+          "matedOccurrence" : [ "MPLoQJhxLlW8mERR9" ],
+          "mateConnectorCS" : {
+            "origin" : [ -0.4445, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, 0.0, -1.0 ],
+            "zAxis" : [ -1.0, 0.0, 0.0 ]
+          },
+          "matedCS" : {
+            "origin" : [ -0.4445, 0.0, 0.0 ],
+            "xAxis" : [ 0.0, 1.0, 0.0 ],
+            "yAxis" : [ 0.0, -0.0, 1.0 ],
+            "zAxis" : [ 1.0, -0.0, -0.0 ]
+          }
+        } ],
+        "mateLimits" : {
+          "limitAxialZMax" : 0.0,
+          "limitAxialZMin" : -1.5707963267948966
+        },
+        "mateType" : "REVOLUTE",
+        "name" : "Revolute 1"
+      }
+    } ],
+    "instances" : [ {
+      "id" : "MY83EESiehWj4MM0V",
+      "suppressed" : false,
+      "partId" : "JFL",
+      "isStandardContent" : false,
+      "name" : "Piano Hinge, Pin <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "b8709c319ff954ad199ebe0b",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "M4d2EHzfkWOEU1z0a",
+      "suppressed" : false,
+      "partId" : "JFD",
+      "isStandardContent" : false,
+      "name" : "Piano Hinge, Weld On <1>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "b8709c319ff954ad199ebe0b",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    }, {
+      "id" : "MPLoQJhxLlW8mERR9",
+      "suppressed" : false,
+      "partId" : "JFH",
+      "isStandardContent" : false,
+      "name" : "Piano Hinge, Weld On <2>",
+      "type" : "Part",
+      "configuration" : "default",
+      "documentId" : "492ae2574a348180fabf6fff",
+      "elementId" : "b8709c319ff954ad199ebe0b",
+      "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+      "fullConfiguration" : "default"
+    } ],
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "3f45b3d88e3eb52f8be3649a",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  } ],
+  "parts" : [ {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/standardcontent/d/0a5d618aa9fe308acdc438c8/v/cb9d35a34bc6d5a4bc6f1027/e/c83202233be413e6e7ef29bb/p/JHD?configuration=JTQwc2NwPUxsSVJhMGFKM0swR3BiZ0pINjNJVnJWYU5BTTU3QUZ3YzdyQjNNeHNhUmclM0Q7QmFzaWNEaWFtZXRlcj0wLjAxK21ldGVyO0ZpbGxldFJhZGl1cz00LjBFLTQrbWV0ZXI7SGVhZEhlaWdodD0wLjAwNjQrbWV0ZXI7TGVuZ3RoPTAuMDIrbWV0ZXI7UGl0Y2g9MC4wMDE1K21ldGVyO1RyaWFuZ2xlSGVpZ2h0PTAuMDAxMjk5MDM4MSttZXRlcjtXYXNoZXJGYWNlPTYuMEUtNCttZXRlcjtXaWR0aEFjcm9zc0ZsYXRzPTAuMDE2K21ldGVy&linkDocumentId=492ae2574a348180fabf6fff",
+    "partId" : "JHD",
+    "isStandardContent" : true,
+    "bodyType" : "solid",
+    "configuration" : "JTQwc2NwPUxsSVJhMGFKM0swR3BiZ0pINjNJVnJWYU5BTTU3QUZ3YzdyQjNNeHNhUmclM0Q7QmFzaWNEaWFtZXRlcj0wLjAxK21ldGVyO0ZpbGxldFJhZGl1cz00LjBFLTQrbWV0ZXI7SGVhZEhlaWdodD0wLjAwNjQrbWV0ZXI7TGVuZ3RoPTAuMDIrbWV0ZXI7UGl0Y2g9MC4wMDE1K21ldGVyO1RyaWFuZ2xlSGVpZ2h0PTAuMDAxMjk5MDM4MSttZXRlcjtXYXNoZXJGYWNlPTYuMEUtNCttZXRlcjtXaWR0aEFjcm9zc0ZsYXRzPTAuMDE2K21ldGVy",
+    "documentId" : "0a5d618aa9fe308acdc438c8",
+    "elementId" : "c83202233be413e6e7ef29bb",
+    "documentMicroversion" : "ee611c55e2f76151966c607a",
+    "fullConfiguration" : "JTQwc2NwPUxsSVJhMGFKM0swR3BiZ0pINjNJVnJWYU5BTTU3QUZ3YzdyQjNNeHNhUmclM0Q7QmFzaWNEaWFtZXRlcj0wLjAxK21ldGVyO0ZpbGxldFJhZGl1cz00LjBFLTQrbWV0ZXI7SGVhZEhlaWdodD0wLjAwNjQrbWV0ZXI7TGVuZ3RoPTAuMDIrbWV0ZXI7UGl0Y2g9MC4wMDE1K21ldGVyO1RyaWFuZ2xlSGVpZ2h0PTAuMDAxMjk5MDM4MSttZXRlcjtXYXNoZXJGYWNlPTYuMEUtNCttZXRlcjtXaWR0aEFjcm9zc0ZsYXRzPTAuMDE2K21ldGVy",
+    "documentVersion" : "cb9d35a34bc6d5a4bc6f1027"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/standardcontent/d/affef12b9cb982d2a1576301/v/5e221b5c688f32d29ad51bf1/e/aa19e4f7aa24b3613aa68155/p/JHD?configuration=JTQwc2NwPTVYVmNiODlnOE1rMTJmR2tBbGhBdW1HOUNUUDZydmZRMkFKckJ5UGJ5QTAlM0Q7Q2xlYXJhbmNlSG9sZT0wLjAwOTMwMDAwMDAwMDAwMDAwMSttZXRlcjtPdXRzaWRlRGlhbWV0ZXI9MC4wMittZXRlcjtUaGlja25lc3M9MC4wMDIrbWV0ZXI&linkDocumentId=492ae2574a348180fabf6fff",
+    "partId" : "JHD",
+    "isStandardContent" : true,
+    "bodyType" : "solid",
+    "configuration" : "JTQwc2NwPTVYVmNiODlnOE1rMTJmR2tBbGhBdW1HOUNUUDZydmZRMkFKckJ5UGJ5QTAlM0Q7Q2xlYXJhbmNlSG9sZT0wLjAwOTMwMDAwMDAwMDAwMDAwMSttZXRlcjtPdXRzaWRlRGlhbWV0ZXI9MC4wMittZXRlcjtUaGlja25lc3M9MC4wMDIrbWV0ZXI",
+    "documentId" : "affef12b9cb982d2a1576301",
+    "elementId" : "aa19e4f7aa24b3613aa68155",
+    "documentMicroversion" : "f6fd117e7dac2ec9fe465c57",
+    "fullConfiguration" : "JTQwc2NwPTVYVmNiODlnOE1rMTJmR2tBbGhBdW1HOUNUUDZydmZRMkFKckJ5UGJ5QTAlM0Q7Q2xlYXJhbmNlSG9sZT0wLjAwOTMwMDAwMDAwMDAwMDAwMSttZXRlcjtPdXRzaWRlRGlhbWV0ZXI9MC4wMittZXRlcjtUaGlja25lc3M9MC4wMDIrbWV0ZXI",
+    "documentVersion" : "5e221b5c688f32d29ad51bf1"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/7dd16d8cbbadabb81ecea143/pi/a00f4b0313998b66a769fcab?configuration=default",
+    "partId" : "JFD",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "7dd16d8cbbadabb81ecea143",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/7bec4c84900aea2e830cbee7/pi/8f91a49ac58a56041150ce58?configuration=default",
+    "partId" : "JFL",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "7bec4c84900aea2e830cbee7",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/7bec4c84900aea2e830cbee7/pi/a6b0aa4827599528ed0f5de8?configuration=default",
+    "partId" : "JFD",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "7bec4c84900aea2e830cbee7",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/7bec4c84900aea2e830cbee7/pi/4367fadbed5784f50bb30575?configuration=default",
+    "partId" : "JFH",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "7bec4c84900aea2e830cbee7",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/1a43b0c1c93e355c01a752e9/pi/d0ee8025f83fcabc58c6b765?configuration=default",
+    "partId" : "ReHD",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "1a43b0c1c93e355c01a752e9",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/1a43b0c1c93e355c01a752e9/pi/1d4cdb9e09896b575670135c?configuration=default",
+    "partId" : "R1GD",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "1a43b0c1c93e355c01a752e9",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/93806e6312cfe4a49d96936c/pi/00c71040c3d6bc609bfb0737?configuration=default",
+    "partId" : "JFD",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "93806e6312cfe4a49d96936c",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/ace7cb96b1669e90089d5fb9/pi/68aa83a9ff86fe04283dc7fc?configuration=default",
+    "partId" : "JFD",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "ace7cb96b1669e90089d5fb9",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/b8709c319ff954ad199ebe0b/pi/9cce0715813fd9f4b04f9d7d?configuration=default",
+    "partId" : "JFL",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "b8709c319ff954ad199ebe0b",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/b8709c319ff954ad199ebe0b/pi/796a249f1a1c5ceb59e65d2a?configuration=default",
+    "partId" : "JFD",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "b8709c319ff954ad199ebe0b",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  }, {
+    "metadataHref" : "https://cad.onshape.com/api/metadata/d/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/b8709c319ff954ad199ebe0b/pi/3719f49971d15f58115966d0?configuration=default",
+    "partId" : "JFH",
+    "isStandardContent" : false,
+    "bodyType" : "solid",
+    "configuration" : "default",
+    "documentId" : "492ae2574a348180fabf6fff",
+    "elementId" : "b8709c319ff954ad199ebe0b",
+    "documentMicroversion" : "3520a465cd4d4e932c7223c5",
+    "fullConfiguration" : "default"
+  } ],
+  "partStudioFeatures" : [ ]
+}
