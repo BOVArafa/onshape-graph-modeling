@@ -1,0 +1,157 @@
+{
+  "version": "2.3.1-beta.0",
+  "visualisation": {
+    "nodes": [
+      { "id": "n:1", "position": { "x": -220, "y": -140 } },
+      { "id": "n:2", "position": { "x": 40, "y": -140 } },
+      { "id": "n:3", "position": { "x": 40, "y": 140 } },
+      { "id": "n:4", "position": { "x": 300, "y": 140 } }
+    ]
+  },
+  "dataModel": {
+    "version": "2.3.1-beta.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:1",
+            "token": "Document",
+            "properties": [
+              { "$id": "p:1", "token": "documentId", "type": { "type": "string" }, "nullable": false },
+              { "$id": "p:2", "token": "name", "type": { "type": "string" }, "nullable": true }
+            ]
+          },
+          {
+            "$id": "nl:2",
+            "token": "Assembly",
+            "properties": [
+              { "$id": "p:3", "token": "elementId", "type": { "type": "string" }, "nullable": false },
+              { "$id": "p:4", "token": "name", "type": { "type": "string" }, "nullable": true }
+            ]
+          },
+          {
+            "$id": "nl:3",
+            "token": "Part",
+            "properties": [
+              { "$id": "p:5", "token": "partId", "type": { "type": "string" }, "nullable": false },
+              { "$id": "p:6", "token": "name", "type": { "type": "string" }, "nullable": true }
+            ]
+          },
+          {
+            "$id": "nl:4",
+            "token": "Property",
+            "properties": [
+              { "$id": "p:7", "token": "partId", "type": { "type": "string" }, "nullable": false },
+              { "$id": "p:8", "token": "name", "type": { "type": "string" }, "nullable": false },
+              { "$id": "p:9", "token": "value", "type": { "type": "string" }, "nullable": true }
+            ]
+          }
+        ],
+        "relationshipTypes": [
+          { "$id": "rt:1", "token": "CONTAINS", "properties": [] },
+          { "$id": "rt:2", "token": "HAS_PROPERTY", "properties": [] },
+          { "$id": "rt:3", "token": "LINKS_TO", "properties": [] },
+          { "$id": "rt:4", "token": "MATES_WITH", "properties": [] }
+        ],
+        "nodeObjectTypes": [
+          { "$id": "n:1", "labels": [{ "$ref": "#nl:1" }] },
+          { "$id": "n:2", "labels": [{ "$ref": "#nl:2" }] },
+          { "$id": "n:3", "labels": [{ "$ref": "#nl:3" }] },
+          { "$id": "n:4", "labels": [{ "$ref": "#nl:4" }] }
+        ],
+        "relationshipObjectTypes": [
+          { "$id": "r:1", "type": { "$ref": "#rt:1" }, "from": { "$ref": "#n:1" }, "to": { "$ref": "#n:2" } },
+          { "$id": "r:2", "type": { "$ref": "#rt:1" }, "from": { "$ref": "#n:2" }, "to": { "$ref": "#n:2" } },
+          { "$id": "r:3", "type": { "$ref": "#rt:1" }, "from": { "$ref": "#n:2" }, "to": { "$ref": "#n:3" } },
+          { "$id": "r:4", "type": { "$ref": "#rt:2" }, "from": { "$ref": "#n:3" }, "to": { "$ref": "#n:4" } },
+          { "$id": "r:5", "type": { "$ref": "#rt:3" }, "from": { "$ref": "#n:1" }, "to": { "$ref": "#n:1" } },
+          { "$id": "r:6", "type": { "$ref": "#rt:4" }, "from": { "$ref": "#n:3" }, "to": { "$ref": "#n:3" } }
+        ],
+        "constraints": [
+          {
+            "$id": "c:1",
+            "name": "document_documentId_unique",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:1" },
+            "properties": [{ "$ref": "#p:1" }]
+          },
+          {
+            "$id": "c:2",
+            "name": "assembly_elementId_unique",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:2" },
+            "properties": [{ "$ref": "#p:3" }]
+          },
+          {
+            "$id": "c:3",
+            "name": "part_partId_unique",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:3" },
+            "properties": [{ "$ref": "#p:5" }]
+          },
+          {
+            "$id": "c:4",
+            "name": "property_partId_name_unique",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:4" },
+            "properties": [{ "$ref": "#p:7" }, { "$ref": "#p:8" }]
+          }
+        ],
+        "indexes": [
+          {
+            "$id": "i:1",
+            "name": "document_documentId_unique",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:1" },
+            "properties": [{ "$ref": "#p:1" }]
+          },
+          {
+            "$id": "i:2",
+            "name": "assembly_elementId_unique",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:2" },
+            "properties": [{ "$ref": "#p:3" }]
+          },
+          {
+            "$id": "i:3",
+            "name": "part_partId_unique",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:3" },
+            "properties": [{ "$ref": "#p:5" }]
+          },
+          {
+            "$id": "i:4",
+            "name": "property_partId_name_unique",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": { "$ref": "#nl:4" },
+            "properties": [{ "$ref": "#p:7" }, { "$ref": "#p:8" }]
+          }
+        ]
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": [
+        { "node": { "$ref": "#n:1" }, "keyProperty": { "$ref": "#p:1" } },
+        { "node": { "$ref": "#n:2" }, "keyProperty": { "$ref": "#p:3" } },
+        { "node": { "$ref": "#n:3" }, "keyProperty": { "$ref": "#p:5" } },
+        { "node": { "$ref": "#n:4" }, "keyProperty": { "$ref": "#p:7" } },
+        { "node": { "$ref": "#n:4" }, "keyProperty": { "$ref": "#p:8" } }
+      ]
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": { "type": "local", "tableSchemas": [] },
+      "nodeMappings": [],
+      "relationshipMappings": []
+    },
+    "configurations": { "idsToIgnore": [] }
+  }
+}
