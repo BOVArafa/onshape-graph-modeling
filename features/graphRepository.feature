@@ -15,3 +15,13 @@ Funcionalidade: Camada de dados do grafo no Neo4j
     Dado um grafo de documento já persistido
     Quando removo o grafo do documento
     Então o banco não possui mais nós nem relacionamentos do documento
+
+  Cenário: Rejeitar sincronização com label de nó fora do modelo
+    Dado um grafo com um nó de label fora do modelo
+    Quando tento sincronizar esse grafo
+    Então a sincronização é rejeitada e nada é persistido
+
+  Cenário: Rejeitar sincronização com tipo de relacionamento fora do modelo
+    Dado um grafo com um relacionamento de tipo fora do modelo
+    Quando tento sincronizar esse grafo
+    Então a sincronização é rejeitada e nada é persistido
