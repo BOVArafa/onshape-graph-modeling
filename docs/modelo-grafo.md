@@ -20,6 +20,12 @@ usa essas chaves para que reexecuções nunca dupliquem nós.
 A chave de `Property` é composta: o mesmo nome de propriedade (ex.: `partNumber`) existe
 para várias peças, e cada peça tem várias propriedades — só o par identifica o nó.
 
+O `partId` do nó `Part` é um **identificador composto** gerado pelo mapeador
+(`"<elementId>/<partId>"`, decisão D7): o `partId` cru da API do Onshape só é único dentro
+de um part studio — no modelo Dumper Trailer real, 50 das 395 peças compartilham `partId`
+com uma peça de outro part studio. Os ids originais ficam preservados nas propriedades
+`elementId` e `sourcePartId` do nó.
+
 ## Relacionamentos
 
 | Tipo           | Origem → Destino                  | Semântica                                         |
