@@ -25,6 +25,12 @@ Funcionalidade: Mapeamento de assembly do Onshape para grafo
     Quando executo o mapeamento
     Então a peça "Enclosure Cover" possui a propriedade "partNumber" com valor "PRT-00239"
 
+  Cenário: Materiais aplicados no modelo viram propriedades das peças
+    Dado um assembly acompanhado da lista de peças do documento
+    Quando executo o mapeamento
+    Então a peça "Tire" possui a propriedade "material" com valor "Silicone Rubber"
+    E a peça "Axle" possui a propriedade "material" com valor "300 Series Stainless Steel"
+
   Cenário: O grafo parte do nó do documento
     Dado um assembly acompanhado da lista de peças do documento
     Quando executo o mapeamento
