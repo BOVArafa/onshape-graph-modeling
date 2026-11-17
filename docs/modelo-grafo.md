@@ -7,7 +7,8 @@ nó deduplicado, e as restrições de montagem (*mates*) criam arestas transvers
 ## Nós e chaves de deduplicação
 
 Cada tipo de nó possui uma chave natural vinda da API do Onshape. A sincronização
-(`MERGE`, a partir da DB-007) usa essas chaves para que reexecuções nunca dupliquem nós.
+(`MERGE` em transação única, em [`src/data/graphRepository.js`](../src/data/graphRepository.js))
+usa essas chaves para que reexecuções nunca dupliquem nós.
 
 | Label      | Descrição                                        | Chave de deduplicação |
 | ---------- | ------------------------------------------------ | --------------------- |

@@ -136,7 +136,7 @@ npm test                # suíte BDD completa (Cucumber.js)
 npm run test:coverage   # cobertura via c8
 ```
 
-Os testes de integração sobem um **Neo4j efêmero via Testcontainers** — nenhuma instalação prévia do banco é necessária, apenas Docker. Cenários escritos em Gherkin (pt-BR) em `features/`.
+Os testes de integração sobem um **Neo4j efêmero via Testcontainers** — nenhuma instalação prévia do banco é necessária, apenas o Docker **em execução** durante a suíte. Cada cenário parte de um banco limpo e aplica as constraints reais de [`scripts/cypher/constraints.cypher`](scripts/cypher/constraints.cypher) no container. Cenários escritos em Gherkin (pt-BR) em `features/`.
 
 ## Fluxo de desenvolvimento
 
