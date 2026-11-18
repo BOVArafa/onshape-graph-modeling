@@ -98,6 +98,24 @@ npm run seed            # carrega a fixture do modelo "Dumper Trailer" no Neo4j
 
 Depois, abra a interface web e informe o `documentId` de demonstração. O seed usa respostas reais da API do Onshape capturadas como fixtures versionadas — os testes também nunca tocam a rede.
 
+## Rotas da API
+
+| Rota | Ação | Respostas |
+| --- | --- | --- |
+| `POST /map/:documentId` | Sincroniza o documento: coleta no Onshape → mapeamento DFS → `MERGE` idempotente | `200` resumo da sincronização · `400` id inválido · `500` falha na coleta |
+| `GET /map/:documentId` | Devolve nós e relacionamentos do grafo em JSON | `200` grafo · `404` documento não mapeado |
+| `DELETE /map/:documentId` | Remove o subgrafo completo (`DETACH DELETE`) | `204` |
+| `GET /health` | Verificação de disponibilidade | `200` |
+
+O `documentId` é validado (24 caracteres hexadecimais) antes de qualquer acesso a serviço ou banco. Exemplo:
+
+```bash
+curl -X POST http://localhost:3000/map/492ae2574a348180fabf6fff
+curl http://localhost:3000/map/492ae2574a348180fabf6fff
+```
+
+> A proteção por API Key das rotas de escrita, os headers de segurança e o rate limit chegam com a issue SEC-011.
+
 ## Credenciais
 
 Todas as variáveis ficam no `.env` (nunca versionado — use o `.env.example` como template):
