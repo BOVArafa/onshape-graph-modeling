@@ -42,19 +42,19 @@ Given('o documento do Dumper Trailer já sincronizado pela API', async function 
   this.firstSyncGraph = await this.repository.getDocumentGraph(DOCUMENT_ID);
 });
 
-When('executo POST /map para o documento do Dumper Trailer', async function () {
+When('executo POST \\/map para o documento do Dumper Trailer', async function () {
   await callMapRoute(this, 'POST', DOCUMENT_ID);
 });
 
-When('executo GET /map para o documento do Dumper Trailer', async function () {
+When('executo GET \\/map para o documento do Dumper Trailer', async function () {
   await callMapRoute(this, 'GET', DOCUMENT_ID);
 });
 
-When('executo DELETE /map para o documento do Dumper Trailer', async function () {
+When('executo DELETE \\/map para o documento do Dumper Trailer', async function () {
   await callMapRoute(this, 'DELETE', DOCUMENT_ID);
 });
 
-When('executo {word} /map com o identificador inválido {string}', async function (method, invalidId) {
+When('executo {word} \\/map com o identificador inválido {string}', async function (method, invalidId) {
   await callMapRoute(this, method, invalidId);
 });
 
