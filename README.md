@@ -138,6 +138,8 @@ npm run test:coverage   # cobertura via c8
 
 Os testes de integração sobem um **Neo4j efêmero via Testcontainers** — nenhuma instalação prévia do banco é necessária, apenas o Docker **em execução** durante a suíte. Cada cenário parte de um banco limpo e aplica as constraints reais de [`scripts/cypher/constraints.cypher`](scripts/cypher/constraints.cypher) no container. Cenários escritos em Gherkin (pt-BR) em `features/`.
 
+A jornada CRUD completa ([`features/graphCrudIntegration.feature`](features/graphCrudIntegration.feature)) integra as camadas reais de ponta a ponta: o assembly do Dumper Trailer (fixture real) é mapeado pelo `AssemblyGraphMapper`, persistido, consultado, ressincronizado (idempotência) e removido do banco efêmero.
+
 ## Fluxo de desenvolvimento
 
 - **BDD-first**: todo requisito nasce como cenário Gherkin antes do código.
