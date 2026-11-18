@@ -102,19 +102,17 @@ Depois, abra a interface web e informe o `documentId` de demonstração. O seed 
 
 | Rota | Ação | Respostas |
 | --- | --- | --- |
-| `POST /map/:documentId` | Sincroniza o documento: coleta no Onshape → mapeamento DFS → `MERGE` idempotente | `200` resumo da sincronização · `400` id inválido · `500` falha na coleta |
+| `POST /map/:documentId` | Sincroniza o documento: coleta no Onshape → mapeamento DFS → `MERGE` idempotente | `200` resumo da sincronização · `400` id inválido · `401` sem API Key · `500` falha na coleta |
 | `GET /map/:documentId` | Devolve nós e relacionamentos do grafo em JSON | `200` grafo · `404` documento não mapeado |
-| `DELETE /map/:documentId` | Remove o subgrafo completo (`DETACH DELETE`) | `204` |
+| `DELETE /map/:documentId` | Remove o subgrafo completo (`DETACH DELETE`) | `204` · `401` sem API Key |
 | `GET /health` | Verificação de disponibilidade | `200` |
 
-O `documentId` é validado (24 caracteres hexadecimais) antes de qualquer acesso a serviço ou banco. Exemplo:
+O `documentId` é validado (24 caracteres hexadecimais) antes de qualquer acesso a serviço ou banco. As **rotas de escrita** (`POST`, `DELETE`) exigem o header `x-api-key` com o valor de `API_KEY` do `.env`; a consulta permanece aberta (modo de demonstração). Toda resposta passa pelo `helmet` (headers de segurança) e pelo limite de requisições por IP (`429` ao exceder). Exemplo:
 
 ```bash
-curl -X POST http://localhost:3000/map/492ae2574a348180fabf6fff
+curl -X POST -H "x-api-key: $API_KEY" http://localhost:3000/map/492ae2574a348180fabf6fff
 curl http://localhost:3000/map/492ae2574a348180fabf6fff
 ```
-
-> A proteção por API Key das rotas de escrita, os headers de segurança e o rate limit chegam com a issue SEC-011.
 
 ## Credenciais
 
