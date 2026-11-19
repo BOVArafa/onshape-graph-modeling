@@ -18,4 +18,4 @@ memorial.
 | 9 | Interface web de visualização interativa | Captura | `figura-09-interface-web.jpeg` ✓ |
 | 10 | Mapeador DFS com deduplicação por hash map | Snippet | `snippets/figura-10-mapeador-dfs-dedup.js` |
 | 11 | Agile Transformation Office (McKinsey) | Externa | referenciada no memorial (não é evidência do repositório) |
-| 12 | Pipeline de CI no GitHub Actions | Captura | `figura-12-pipeline-ci.png` *(pendente — [runs do workflow](https://github.com/BOVArafa/onshape-graph-modeling/actions/workflows/ci.yml))* |
+| 12 | Pipeline de CI no GitHub Actions | Captura | `figura-12-pipeline-ci.jpeg` ✓ |
