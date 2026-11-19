@@ -1,6 +1,6 @@
 # Onshape Graph Modeling
 
-Serviço que extrai a estrutura de modelos 3D do [Onshape](https://www.onshape.com/) (CAD paramétrico em nuvem) via API e a persiste como **grafo no Neo4j**, expondo-a por uma API REST, uma interface web de exploração visual e um servidor MCP para consumo por assistentes de IA.
+Serviço que extrai a estrutura de modelos 3D do [Onshape](https://www.onshape.com/) (CAD paramétrico em nuvem) via API e a persiste como **grafo no Neo4j**, expondo-a por uma API REST e uma interface web de exploração visual.
 
 Projeto de conclusão da Pós-Graduação em Desenvolvimento Full Stack da PUCRS — autor: **Rafael Augusto Bova**.
 
@@ -22,7 +22,7 @@ A especificação completa está em [`escopo_projeto.md`](escopo_projeto.md); o 
 | M2 — Integração com a API do Onshape | Autenticação HMAC-SHA256, cliente de assemblies | #4 #5 |
 | M3 — Modelagem e persistência em grafo | Modelo ER, camada Neo4j, mapeador DFS, Testcontainers | #6 #7 #8 #9 |
 | M4 — API REST | Rotas `/map/:documentId`, middlewares de segurança | #10 #11 |
-| M5 — Camadas de apresentação e consumo | Interface vis-network, servidor MCP | #12 #15 |
+| M5 — Camadas de apresentação e consumo | Interface vis-network (servidor MCP cancelado — issue #15 "not planned") | #12 |
 | M6 — DevOps e evidências | CI no GitHub Actions, documentação final | #13 #14 |
 
 > As seções "Como rodar" e "Testes" descrevem o fluxo-alvo e ficam operacionais com a conclusão do M1 (issues #1–#3).
@@ -69,7 +69,6 @@ Fluxo: `POST /map/:documentId` → autentica no Onshape (HMAC-SHA256) → busca 
 | Relatórios | cucumber-html-reporter, c8 (cobertura) |
 | Segurança | HMAC-SHA256 (`crypto` nativo), helmet, express-rate-limit, API Key |
 | Frontend | vis-network (servido pelo próprio Express) |
-| Interface IA | Servidor MCP (Model Context Protocol) |
 | DevOps | Docker, Docker Compose, GitHub Actions |
 
 ## Como rodar localmente
