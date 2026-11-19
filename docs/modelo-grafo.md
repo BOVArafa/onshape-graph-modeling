@@ -20,6 +20,12 @@ usa essas chaves para que reexecuções nunca dupliquem nós.
 A chave de `Property` é composta: o mesmo nome de propriedade (ex.: `partNumber`) existe
 para várias peças, e cada peça tem várias propriedades — só o par identifica o nó.
 
+O nó `Document` de um **documento externo** (alvo de `LINKS_TO`) carrega apenas o
+`documentId`: o nome não está na resposta do assembly e buscá-lo exigiria chamadas extras à
+API. A consulta do grafo inclui esses vizinhos a um salto de distância, sem atravessar o
+subgrafo deles; a remoção apaga documentos externos apenas quando ficam órfãos (nenhum
+outro documento mapeado os referencia).
+
 O `partId` do nó `Part` é um **identificador composto** gerado pelo mapeador
 (`"<elementId>/<partId>"`, decisão D7): o `partId` cru da API do Onshape só é único dentro
 de um part studio — no modelo Dumper Trailer real, 50 das 395 peças compartilham `partId`
@@ -32,7 +38,7 @@ com uma peça de outro part studio. Os ids originais ficam preservados nas propr
 | -------------- | --------------------------------- | ------------------------------------------------- |
 | `CONTAINS`     | Document/Assembly → Assembly/Part | Hierarquia de contenção                           |
 | `HAS_PROPERTY` | Part → Property                   | Metadados da peça                                 |
-| `LINKS_TO`     | Document → Document               | Referências entre documentos                      |
+| `LINKS_TO`     | Document → Document               | Referência a documento externo cujas peças aparecem na montagem (ex.: *standard content*) |
 | `MATES_WITH`   | Part → Part                       | Restrição de montagem (aresta transversal do DAG) |
 
 ## Constraints de unicidade

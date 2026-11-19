@@ -14,6 +14,8 @@ const MATED_WASHER_ID = 'aa19e4f7aa24b3613aa68155/JHD';
 const MATED_ENCLOSURE_ID = '1a43b0c1c93e355c01a752e9/ReHD';
 const COLLIDING_PART_IDS = ['b58416ed2a068e86796ea6d7/JHD', 'd2b2aadf45f6c5a78a3165b2/JHD'];
 const SHARED_SOURCE_PART_ID = 'JHD';
+const EXTERNAL_DOCUMENT_COUNT = 24;
+const SAMPLE_EXTERNAL_DOCUMENT_ID = 'a37d53b86a2bdf62ea34b3ae';
 
 function loadFixture(fileName) {
   return JSON.parse(fs.readFileSync(path.join(FIXTURES_DIR, fileName), 'utf8'));
@@ -116,6 +118,25 @@ Then(
     assert.ok(linked, `faltou HAS_PROPERTY entre ${partName} e ${propertyName}`);
   },
 );
+
+Then('cada documento externo vira um nó Document deduplicado', function () {
+  const externalDocuments = this.graph.nodes.filter(
+    (node) => node.label === 'Document' && node.properties.documentId !== DOCUMENT_ID,
+  );
+  assert.equal(externalDocuments.length, EXTERNAL_DOCUMENT_COUNT);
+
+  const externalIds = externalDocuments.map((node) => node.properties.documentId);
+  assert.equal(new Set(externalIds).size, EXTERNAL_DOCUMENT_COUNT);
+  assert.ok(externalIds.includes(SAMPLE_EXTERNAL_DOCUMENT_ID));
+});
+
+Then('existe um relacionamento LINKS_TO do documento raiz para cada um deles', function () {
+  const linksTo = this.graph.relationships.filter((rel) => rel.type === 'LINKS_TO');
+  assert.equal(linksTo.length, EXTERNAL_DOCUMENT_COUNT);
+  for (const relationship of linksTo) {
+    assert.equal(relationship.from.key.documentId, DOCUMENT_ID);
+  }
+});
 
 Then('o nó do documento contém a montagem raiz por CONTAINS', function () {
   const documentNode = this.graph.nodes.find((node) => node.label === 'Document');

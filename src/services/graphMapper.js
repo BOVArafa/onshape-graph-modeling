@@ -26,6 +26,7 @@ const NODE_KEY_PROPERTIES = {
 
 class AssemblyGraphMapper {
   #documentNode;
+  #linkedDocumentsById;
   #assembliesByElementId;
   #partsById;
   #propertyNodes;
@@ -52,6 +53,7 @@ class AssemblyGraphMapper {
     return {
       nodes: [
         this.#documentNode,
+        ...this.#linkedDocumentsById.values(),
         ...this.#assembliesByElementId.values(),
         ...this.#partsById.values(),
         ...this.#propertyNodes,
@@ -71,6 +73,7 @@ class AssemblyGraphMapper {
       allAssemblies.flatMap((assembly) => assembly.instances).map((instance) => [instance.id, instance]),
     );
     this.#partsCatalog = new Map(parts.map((part) => [buildCompositePartId(part), part]));
+    this.#linkedDocumentsById = new Map();
     this.#assembliesByElementId = new Map();
     this.#partsById = new Map();
     this.#propertyNodes = [];
@@ -85,6 +88,7 @@ class AssemblyGraphMapper {
       if (instance.suppressed) {
         continue;
       }
+      this.#registerExternalDocument(instance);
       if (instance.type === 'Part') {
         const partNode = this.#addPartNode(instance);
         this.#addRelationship('CONTAINS', assemblyNode, partNode);
@@ -103,6 +107,22 @@ class AssemblyGraphMapper {
         }
       }
     }
+  }
+
+  #registerExternalDocument(instance) {
+    const externalDocumentId = instance.documentId;
+    if (!externalDocumentId || externalDocumentId === this.#documentNode.properties.documentId) {
+      return;
+    }
+    if (this.#linkedDocumentsById.has(externalDocumentId)) {
+      return;
+    }
+    const externalDocumentNode = {
+      label: 'Document',
+      properties: { documentId: externalDocumentId },
+    };
+    this.#linkedDocumentsById.set(externalDocumentId, externalDocumentNode);
+    this.#addRelationship('LINKS_TO', this.#documentNode, externalDocumentNode);
   }
 
   #addAssemblyNode(elementId, name) {

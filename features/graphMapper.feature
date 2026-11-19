@@ -35,3 +35,9 @@ Funcionalidade: Mapeamento de assembly do Onshape para grafo
     Dado um assembly acompanhado da lista de peças do documento
     Quando executo o mapeamento
     Então o nó do documento contém a montagem raiz por CONTAINS
+
+  Cenário: Documentos externos referenciados viram nós ligados por LINKS_TO
+    Dado um assembly acompanhado da lista de peças do documento
+    Quando executo o mapeamento
+    Então cada documento externo vira um nó Document deduplicado
+    E existe um relacionamento LINKS_TO do documento raiz para cada um deles

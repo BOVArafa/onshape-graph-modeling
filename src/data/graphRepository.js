@@ -12,6 +12,9 @@ const RELATIONSHIP_TYPES = ['CONTAINS', 'HAS_PROPERTY', 'LINKS_TO', 'MATES_WITH'
 const DOCUMENT_SUBGRAPH_NODES_QUERY = `
   MATCH (:Document {documentId: $documentId})-[:CONTAINS|HAS_PROPERTY*0..]->(node)
   RETURN DISTINCT labels(node)[0] AS label, properties(node) AS properties
+  UNION
+  MATCH (:Document {documentId: $documentId})-[:LINKS_TO]->(node)
+  RETURN DISTINCT labels(node)[0] AS label, properties(node) AS properties
 `;
 
 const DOCUMENT_SUBGRAPH_RELATIONSHIPS_QUERY = `
@@ -21,11 +24,22 @@ const DOCUMENT_SUBGRAPH_RELATIONSHIPS_QUERY = `
   RETURN DISTINCT type(relationship) AS type,
     labels(from)[0] AS fromLabel, properties(from) AS fromProperties,
     labels(to)[0] AS toLabel, properties(to) AS toProperties
+  UNION
+  MATCH (from:Document {documentId: $documentId})-[relationship:LINKS_TO]->(to)
+  RETURN DISTINCT type(relationship) AS type,
+    labels(from)[0] AS fromLabel, properties(from) AS fromProperties,
+    labels(to)[0] AS toLabel, properties(to) AS toProperties
 `;
 
 const DELETE_DOCUMENT_SUBGRAPH_QUERY = `
   MATCH (:Document {documentId: $documentId})-[:CONTAINS|HAS_PROPERTY*0..]->(node)
   DETACH DELETE node
+`;
+
+const DELETE_ORPHAN_DOCUMENTS_QUERY = `
+  MATCH (document:Document)
+  WHERE NOT (document)--()
+  DELETE document
 `;
 
 function requireKnownLabel(label) {
@@ -121,9 +135,10 @@ function createGraphRepository(driver) {
 
   function deleteDocumentGraph(documentId) {
     return withSession(driver, (session) =>
-      session.executeWrite((transaction) =>
-        transaction.run(DELETE_DOCUMENT_SUBGRAPH_QUERY, { documentId }),
-      ),
+      session.executeWrite(async (transaction) => {
+        await transaction.run(DELETE_DOCUMENT_SUBGRAPH_QUERY, { documentId });
+        await transaction.run(DELETE_ORPHAN_DOCUMENTS_QUERY);
+      }),
     );
   }
 

@@ -43,7 +43,12 @@ function displayNameOf(node) {
   if (node.label === 'Property') {
     return `${node.properties.name}: ${node.properties.value}`;
   }
-  return node.properties.name ?? node.properties.partId ?? node.properties.elementId;
+  return (
+    node.properties.name ??
+    node.properties.partId ??
+    node.properties.elementId ??
+    node.properties.documentId
+  );
 }
 
 function buildTooltip(node) {
