@@ -1,5 +1,7 @@
 # Onshape Graph Modeling
 
+[![CI](https://github.com/BOVArafa/onshape-graph-modeling/actions/workflows/ci.yml/badge.svg)](https://github.com/BOVArafa/onshape-graph-modeling/actions/workflows/ci.yml)
+
 Serviço que extrai a estrutura de modelos 3D do [Onshape](https://www.onshape.com/) (CAD paramétrico em nuvem) via API e a persiste como **grafo no Neo4j**, expondo-a por uma API REST e uma interface web de exploração visual.
 
 Projeto de conclusão da Pós-Graduação em Desenvolvimento Full Stack da PUCRS — autor: **Rafael Augusto Bova**.
