@@ -21,7 +21,7 @@ Pesquisando sobre o assunto, entendi que a estrutura de um modelo CAD paramétri
 
 ## 2. Objetivo
 
-Construir um serviço que **lê a estrutura dos produtos pela API do Onshape e a salva como grafo no banco Neo4j**, disponibilizando esses dados de três formas: uma API REST, uma página web para explorar o grafo visualmente e um servidor MCP para que assistentes de IA também consigam consultar.
+Construir um serviço que **lê a estrutura dos produtos pela API do Onshape e a salva como grafo no banco Neo4j**, disponibilizando esses dados de duas formas: uma API REST e uma página web para explorar o grafo visualmente.
 
 **Resultado esperado:** qualquer pessoa autorizada (ou sistema) consegue responder em segundos perguntas sobre a estrutura dos produtos, sem precisar abrir o CAD.
 
@@ -32,7 +32,6 @@ Construir um serviço que **lê a estrutura dos produtos pela API do Onshape e a
 | E1 | Serviço de sincronização | API REST (Node.js + Express) que se autentica no Onshape, extrai a estrutura de um documento e a salva no Neo4j |
 | E2 | Base de grafo modelada | Modelo de dados no Neo4j com constraints, que dá para popular e consultar em Cypher |
 | E3 | Interface web | Página de exploração visual do grafo (busca, filtros, detalhes de nó) |
-| E4 | Servidor MCP | Ferramentas MCP que expõem consultas do grafo a clientes de IA |
 | E5 | Suíte de testes | Cenários BDD executáveis (unitários e integração) com relatório e cobertura |
 | E6 | Empacotamento e CI | Docker Compose para subir o sistema completo; pipeline de CI rodando a suíte a cada push |
 | E7 | Documentação | README com arquitetura, setup e operação |
@@ -61,8 +60,6 @@ Dado o identificador de um documento do Onshape, o serviço busca a definição 
 ### RF-06 — Exploração visual
 Página web (servida pelo próprio serviço) que mostra o grafo de um documento de forma interativa: nós coloridos por tipo, arestas com o nome do relacionamento, zoom e arraste. Também deve ter **busca** por nome/id (destacando o nó encontrado), **filtro** por tipo de nó e um **painel de detalhes** com as propriedades e os vizinhos do nó selecionado.
 
-### RF-07 — Interface MCP
-Servidor MCP com pelo menos três ferramentas de consulta ao grafo: `get_assembly_tree(documentId)`, `find_parts_by_property(propriedade, valor)` e `count_parts_by_material()`. Precisa funcionar com um cliente MCP comum de mercado.
 
 ## 5. Requisitos não-funcionais
 
@@ -72,7 +69,7 @@ Servidor MCP com pelo menos três ferramentas de consulta ao grafo: `get_assembl
 - **RNF-04 · Integridade de dados:** constraint de unicidade no id de cada tipo de nó no Neo4j, para o próprio banco impedir duplicatas.
 - **RNF-05 · Operação:** o sistema completo (API + Neo4j) sobe com um comando (`docker compose up`). Um pipeline de CI roda a suíte de testes a cada push, com o status visível no repositório.
 - **RNF-06 · Testes sem depender da internet:** os testes não podem depender da API do Onshape estar no ar — respostas reais serão salvas como *fixtures* (arquivos JSON versionados) e usadas nos testes.
-- **RNF-07 · Arquitetura:** separação em camadas (rotas → serviços → repositório de grafo). O acesso ao banco fica concentrado em um único módulo, usado tanto pela API REST quanto pelo servidor MCP.
+- **RNF-07 · Arquitetura:** separação em camadas (rotas → serviços → repositório de grafo). O acesso ao banco fica concentrado em um único módulo (repositório de grafo), ponto único de acesso para qualquer consumidor.
 
 ## 6. Critérios de aceitação
 
@@ -103,7 +100,7 @@ Funcionalidade: Sincronização de documento Onshape para o grafo
     Então existe um relacionamento MATES_WITH entre os nós das peças A e B
 ```
 
-Além desses cenários, cada entregável tem um critério prático: E3 — um usuário encontra uma peça pelo nome e consegue ver seus vizinhos em até 3 interações; E4 — um cliente MCP lista as ferramentas e obtém a árvore de um documento real; E6 — a partir de um clone limpo do repositório, `docker compose up` sobe tudo e a suíte passa, sem nenhum passo manual além de preencher o `.env`.
+Além desses cenários, cada entregável tem um critério prático: E3 — um usuário encontra uma peça pelo nome e consegue ver seus vizinhos em até 3 interações; E6 — a partir de um clone limpo do repositório, `docker compose up` sobe tudo e a suíte passa, sem nenhum passo manual além de preencher o `.env`.
 
 ## 7. Fora de escopo (nesta fase)
 
@@ -112,6 +109,10 @@ Além desses cenários, cada entregável tem um critério prático: E3 — um us
 - Autenticação multiusuário, perfis e SSO na interface web.
 - Mapeamento de features paramétricas mais finas (equações, variáveis, sketches) — nesta fase o grafo cobre contenção, propriedades e mates.
 - Alta disponibilidade e deploy em nuvem — o alvo é rodar localmente via Docker Compose.
+- Servidor MCP para consulta por assistentes de IA (antigos entregável E4 e RF-07) —
+  removido do escopo em 2026-11-19 (issue MCP-015 encerrada como "not planned"); a
+  arquitetura em camadas (RNF-07) mantém o repositório de grafo como ponto único de
+  acesso caso essa interface seja retomada no futuro.
 
 ## 8. Premissas (o que preciso para começar)
 

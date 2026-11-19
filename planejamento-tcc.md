@@ -38,7 +38,6 @@ um único nó deduplicado.
 | Relatórios        | cucumber-html-reporter (execução), c8 (cobertura)        |
 | Segurança         | helmet, express-rate-limit, middleware de API Key, HMAC-SHA256 (crypto nativo) |
 | Frontend          | HTML + vis-network (servido pelo Express)                |
-| Interface IA      | Servidor MCP (Model Context Protocol) reutilizando a camada de dados |
 | DevOps            | Docker, docker-compose, GitHub Actions                   |
 
 ## 3. Arquitetura em camadas
@@ -464,6 +463,10 @@ Então recebo status 429
 
 #### [MCP-015] Implementar servidor MCP com ferramentas de consulta ao grafo
 
+> **Status: CANCELADA em 2026-11-19** (issue #15 encerrada como "not planned" no GitHub —
+> decisão D8). O servidor MCP saiu do escopo do projeto (ver seção 7 do
+> `escopo_projeto.md`); o conteúdo abaixo é mantido como histórico.
+
 **Labels:** `tipo:feature` `area:mcp` `prioridade:media`
 **Depende de:** DB-007, DB-008
 
@@ -513,7 +516,7 @@ Testcontainers (disciplina DevOps — figura 12 do memorial).
 #### [DOC-014] README completo + captura das evidências do memorial
 
 **Labels:** `tipo:docs` `area:setup` `prioridade:media`
-**Depende de:** UI-012, MCP-015, OPS-013
+**Depende de:** UI-012, OPS-013
 
 **Contexto:** o repositório público é a fonte das figuras citadas no memorial
 (Figuras 1, 2, 3, 6, 8, 9 e 12) e evidência do processo de construção.
@@ -532,8 +535,6 @@ Testcontainers (disciplina DevOps — figura 12 do memorial).
 - [ ] Pasta `docs/figuras/` com as capturas numeradas conforme o memorial
 - [ ] Link público do modelo Onshape "Dumper Trailer" documentado
       (https://cad.onshape.com/documents/492ae2574a348180fabf6fff/w/9e5ef30dc76b6a87db213fb3/e/f4b4556f2bfab459c2c18ca2)
-- [ ] Documentar a configuração de um cliente MCP para usar as ferramentas do servidor
-      (critério E4 do escopo)
 
 **Critérios de aceite:**
 - Um desenvolvedor novo consegue subir e testar o projeto apenas seguindo o README
@@ -550,8 +551,8 @@ SETUP-001 ─┬─> BDD-002 ──> ONS-004 ──> ONS-005 ─┐
 DB-006 ─────────────────┴─> DB-007 ──> DB-009 ──┘           ├─> API-010 ─> SEC-011
                                           │                 │        └───> UI-012
                                           └─> OPS-013 <─────┘
-DB-007 + DB-008 ──────> MCP-015
-UI-012 + MCP-015 + OPS-013 ──> DOC-014
+UI-012 + OPS-013 ──────> DOC-014
+(MCP-015 cancelada — decisão D8, 2026-11-19)
 ```
 
 Prioridade de entrega: **M1 → M2 → M3 → M4 → M5 → M6**, com DB-006 podendo ser

@@ -1,7 +1,7 @@
 {
   "name": "onshape-graph-modeling",
   "version": "0.1.0",
-  "description": "Mapeia a estrutura de modelos 3D do Onshape como grafo no Neo4j, com API REST, visualização web e servidor MCP (TCC PUCRS)",
+  "description": "Mapeia a estrutura de modelos 3D do Onshape como grafo no Neo4j, com API REST e visualização web (TCC PUCRS)",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
