@@ -1,5 +1,6 @@
 class AssemblyGraphMapper {
   #documentNode;
+  #linkedDocumentsById;
   #assembliesByElementId;
   #partsById;
   #propertyNodes;
@@ -26,6 +27,7 @@ class AssemblyGraphMapper {
     return {
       nodes: [
         this.#documentNode,
+        ...this.#linkedDocumentsById.values(),
         ...this.#assembliesByElementId.values(),
         ...this.#partsById.values(),
         ...this.#propertyNodes,
@@ -41,6 +43,7 @@ class AssemblyGraphMapper {
       if (instance.suppressed) {
         continue;
       }
+      this.#registerExternalDocument(instance);
       if (instance.type === 'Part') {
         const partNode = this.#addPartNode(instance);
         this.#addRelationship('CONTAINS', assemblyNode, partNode);
