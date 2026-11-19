@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Onshape Graph Modeling — Visualização do grafo</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Onshape Graph Modeling</h1>
+      <form id="load-form">
+        <label for="document-id-input">Documento</label>
+        <input
+          id="document-id-input"
+          name="documentId"
+          value="492ae2574a348180fabf6fff"
+          pattern="[0-9a-f]{24}"
+          required
+        />
+        <button type="submit" id="load-button">Visualizar</button>
+        <span id="status-message" role="status"></span>
+      </form>
+      <div id="toolbar">
+        <form id="search-form">
+          <label for="search-input">Buscar peça</label>
+          <input id="search-input" name="query" placeholder="nome ou id" />
+          <button type="submit" id="search-button">Buscar</button>
+        </form>
+        <fieldset id="node-type-filters">
+          <legend>Tipos de nó</legend>
+          <label><input type="checkbox" value="Document" checked /> Document</label>
+          <label><input type="checkbox" value="Assembly" checked /> Assembly</label>
+          <label><input type="checkbox" value="Part" checked /> Part</label>
+          <label><input type="checkbox" value="Property" checked /> Property</label>
+        </fieldset>
+      </div>
+    </header>
+    <main>
+      <div id="graph-container"></div>
+      <aside id="details-panel">
+        <h2>Detalhes</h2>
+        <p id="details-placeholder">Clique em um nó para ver propriedades e vizinhos.</p>
+        <dl id="details-properties"></dl>
+        <h3>Vizinhos</h3>
+        <ul id="details-neighbors"></ul>
+      </aside>
+    </main>
+    <script src="/vendor/vis-network/vis-network.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
