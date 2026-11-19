@@ -543,6 +543,45 @@ Testcontainers (disciplina DevOps — figura 12 do memorial).
 
 ---
 
+### Issues adicionais (pós-backlog)
+
+#### [DB-016] Mapear referências entre documentos como arestas LINKS_TO
+
+**Labels:** `tipo:feature` `area:grafo` `prioridade:media`
+**Depende de:** DB-008, API-010
+**Adicionada em 2026-11-19** — pendência registrada desde a DB-008 (PR #23): a aresta
+`LINKS_TO` existe no modelo (decisão D4, RF-02, Figura 4 do memorial) e é suportada pelo
+repositório, mas nenhuma issue a produzia.
+
+**Contexto:** assemblies reais referenciam peças de outros documentos (*standard content* —
+parafusos, porcas, rolamentos). No Dumper Trailer, 337 instâncias vêm de **24 documentos
+externos**. Essas referências são exatamente o `LINKS_TO` do RF-02.
+
+**Escopo:**
+- [ ] `AssemblyGraphMapper` emite um nó `Document` por documento externo referenciado
+      (deduplicado; só `documentId` — o nome não está na resposta do assembly e buscá-lo
+      exigiria rede) e a aresta `LINKS_TO` do documento raiz para cada um
+- [ ] `getDocumentGraph` passa a incluir os vizinhos diretos via `LINKS_TO` (um salto),
+      **sem** atravessar o subgrafo de outros documentos
+- [ ] `deleteDocumentGraph` continua sem tocar documentos de terceiros; documentos
+      externos que ficarem órfãos (sem nenhum relacionamento) são removidos na mesma
+      transação — remoção não deixa lixo
+- [ ] Visualização: nó `Document` sem nome exibe o `documentId` como rótulo
+
+**Critérios de aceite:**
+```gherkin
+Dado um assembly com peças de documentos externos
+Quando executo o mapeamento
+Então cada documento externo vira um nó Document deduplicado
+E existe um relacionamento LINKS_TO do documento raiz para cada um deles
+```
+- A jornada CRUD de integração continua verde com os `LINKS_TO` incluídos na ida e volta
+
+**Evidência:** nenhuma figura nova (a Figura 4 já exibe a aresta `LINKS_TO` — a issue
+elimina a última inconsistência entre o modelo documentado e o grafo produzido).
+
+---
+
 ## 8. Ordem de execução sugerida
 
 ```
@@ -552,6 +591,7 @@ DB-006 ─────────────────┴─> DB-007 ──>
                                           │                 │        └───> UI-012
                                           └─> OPS-013 <─────┘
 UI-012 + OPS-013 ──────> DOC-014
+DB-008 + API-010 ──────> DB-016 (adicional, 2026-11-19)
 (MCP-015 cancelada — decisão D8, 2026-11-19)
 ```
 
