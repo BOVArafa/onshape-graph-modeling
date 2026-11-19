@@ -1,3 +1,4 @@
+const path = require('node:path');
 const express = require('express');
 const helmet = require('helmet');
 const { rateLimit } = require('express-rate-limit');
@@ -28,6 +29,11 @@ function createApp({
     }),
   );
   app.use(express.json());
+  app.use(express.static(path.join(__dirname, 'public')));
+  app.use(
+    '/vendor/vis-network',
+    express.static(path.join(__dirname, '..', 'node_modules', 'vis-network', 'standalone', 'umd')),
+  );
   app.use(healthController);
 
   if (apiKey) {
