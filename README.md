@@ -16,7 +16,7 @@ A especificação completa está em [`escopo_projeto.md`](escopo_projeto.md); o 
 
 ## Status do projeto
 
-**Em desenvolvimento.** O backlog completo está nas [issues](../../issues) (#1 a #15), organizado em 6 milestones:
+**Desenvolvimento concluído.** O backlog completo está nas [issues](../../issues) (#1 a #15), organizado em 6 milestones — todas concluídas (a #15 foi cancelada por decisão de escopo):
 
 | Milestone | Conteúdo | Issues |
 | --- | --- | --- |
@@ -26,8 +26,6 @@ A especificação completa está em [`escopo_projeto.md`](escopo_projeto.md); o 
 | M4 — API REST | Rotas `/map/:documentId`, middlewares de segurança | #10 #11 |
 | M5 — Camadas de apresentação e consumo | Interface vis-network (servidor MCP cancelado — issue #15 "not planned") | #12 |
 | M6 — DevOps e evidências | CI no GitHub Actions, documentação final | #13 #14 |
-
-> As seções "Como rodar" e "Testes" descrevem o fluxo-alvo e ficam operacionais com a conclusão do M1 (issues #1–#3).
 
 ## Arquitetura
 
@@ -75,7 +73,7 @@ Fluxo: `POST /map/:documentId` → autentica no Onshape (HMAC-SHA256) → busca 
 
 ## Como rodar localmente
 
-> Disponível após o M1. O projeto roda inteiramente local — não há deploy em nuvem (ver seção 7 do escopo).
+O projeto roda inteiramente local — não há deploy em nuvem (ver seção 7 do escopo).
 
 Pré-requisitos: [Docker](https://docs.docker.com/get-docker/) e [Node.js LTS](https://nodejs.org/).
 
@@ -83,21 +81,22 @@ Pré-requisitos: [Docker](https://docs.docker.com/get-docker/) e [Node.js LTS](h
 git clone git@github.com:BOVArafa/onshape-graph-modeling.git
 cd onshape-graph-modeling
 cp .env.example .env    # preencha as variáveis (ver "Credenciais")
+npm ci                  # dependências locais (seed e testes)
 docker compose up       # sobe API + Neo4j
 ```
 
-A interface de visualização fica disponível na porta configurada (`PORT`) e o Neo4j Browser na porta mapeada no `docker-compose.yml`.
+A interface de visualização fica em `http://localhost:3000` (ou a porta definida em `PORT`) e o Neo4j Browser em `http://localhost:7474`.
 
 ### Modo de demonstração (sem conta no Onshape)
 
 Para explorar o grafo **sem credenciais do Onshape** — por exemplo, para a verificação do orientador:
 
 ```bash
-docker compose up
-npm run seed            # carrega a fixture do modelo "Dumper Trailer" no Neo4j
+docker compose up -d
+npm run seed            # aplica as constraints e carrega o modelo "Dumper Trailer" no Neo4j
 ```
 
-Depois, abra a interface web e informe o `documentId` de demonstração. O seed usa respostas reais da API do Onshape capturadas como fixtures versionadas — os testes também nunca tocam a rede.
+O seed usa respostas reais da API do Onshape capturadas como fixtures versionadas (os testes também nunca tocam a rede) e imprime o link da interface com o `documentId` de demonstração — basta abrir e clicar em **Visualizar**.
 
 ## Rotas da API
 
@@ -145,8 +144,6 @@ client
 Os testes **nunca** chamam a API real: usam respostas capturadas desse modelo, versionadas em [`fixtures/onshape/`](fixtures/onshape/README.md).
 
 ## Testes
-
-> Disponível após o M1.
 
 ```bash
 npm test                # suíte BDD completa (Cucumber.js)
